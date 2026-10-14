@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-config-editor="packaged">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Configuration editor</title>
+<style nonce="$nonce">$css</style>
+</head>
+<body>
+<main aria-labelledby="editor-title">
+<h1 id="editor-title">Configuration editor</h1>
+<p id="editor-description"></p>
+<button id="reload" type="button">Reload configuration</button>
+<p id="status" role="status" aria-live="polite">Loading editor. If this persists, reload or contact the operator.</p>
+<p id="error" role="alert"></p>
+<p id="saved" role="status" aria-live="polite"></p>
+<div id="fields"></div>
+<noscript>This editor requires JavaScript. No changes have been made.</noscript>
+</main>
+<script nonce="$nonce" id="editor-config" type="application/json">$config</script>
+<script nonce="$nonce">$js</script>
+</body>
+</html>
