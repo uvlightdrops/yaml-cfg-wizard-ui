@@ -1,0 +1,8 @@
+# yaml-cfg-wizard-ui app-level configuration
+# Framework-independent scalar configuration editor page
+
+yaml_cfg_wizard_ui:
+  framework: none
+  render:
+    csrf_protection: true
+    no_store_caching: true

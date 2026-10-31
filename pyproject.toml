@@ -18,3 +18,8 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 yaml_cfg_wizard_ui = ["assets/*.html", "assets/*.css", "assets/*.js"]
+
+[tool.stackctl]
+# UI library configuration
+config_loader = "yaml_cfg_wizard_ui:load_config"
+config_key = "stack"
